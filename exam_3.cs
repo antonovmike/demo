@@ -48,6 +48,9 @@ class Program
             Console.WriteLine("Enter Russian language grade:");
             eachRulang = Convert.ToInt32(Console.ReadLine());
             rulang.Add(new Rl (eachRulang));
+        }
+
+        for (int i=0; i<amount; i++) {
             Console.WriteLine("{0}. {1} is {2} yo. Math {3}, Russian language {4}", 
             (i+1), name[i].Name, age[i].Age, math[i].Math, rulang[i].Rulang);
         }
