@@ -51,10 +51,13 @@ class Program
         }
     static void Main(string[] args)
     {
+// !!! СПИСКИ СОБРАТЬ В ОДИН
         List<Person> name = new List<Person>() {};
         List<Person> age = new List<Person>() {};
         List<Person> math = new List<Person>() {};
         List<Person> rulang = new List<Person>() {};
+// !!! ПРИКРУТИТЬ СЛОВАРЬ ЕГЭ<string,int>
+// принимать баллы по егэ, добавлять ключ
 
 // ВВОД ДАННЫХ
         InputData(name, age, math, rulang);
