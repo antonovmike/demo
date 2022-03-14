@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoloLearn
-{
     class Person
         { public string Name { get; }
         public Person(string name) => Name = name; }
@@ -49,4 +47,3 @@ namespace SoloLearn
             }
         }
     }
-}
